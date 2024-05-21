@@ -1,0 +1,108 @@
+[
+    {
+        "id": 1,
+        "name": "The Whop-per",
+        "price": 7.80,
+        "image": "images/Menu/1-Whopper.png",
+        "type": "food"
+    },
+    {
+        "id": 2,
+        "name": "Turkey Ham Burger",
+        "price": 6.50,
+        "image": "images/Menu/2-TurkeyHam.png",
+        "type": "food"
+    },
+    {
+        "id": 3,
+        "name": "Mushroom Burger",
+        "price": 6.50,
+        "image": "images/Menu/3-Mushroom.png",
+        "type": "food"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Long Chicken Burger",
+        "price": 7.80,
+        "image": "images/Menu/4-LongChicken.png",
+        "type": "food"
+    },
+    {
+        "id": 5,
+        "name": "Fish Burger",
+        "price": 6.50,
+        "image": "images/Menu/5-FishBurger.png",
+        "type": "food"
+    },
+    {
+        "id": 6,
+        "name": "Omlette Platter",
+        "price": 7.80,
+        "image": "images/Menu/6-Omlette.png",
+        "type": "food"
+    },
+    {
+        "id": 7,
+        "name": "Coka Cola",
+        "price": 1.50,
+        "image": "images/Menu/7-Coke.png",
+        "type": "drink"
+    },
+    {
+        "id": 8,
+        "name": "Ice Lemon Tea",
+        "price": 1.10,
+        "image": "images/Menu/8-LemonTea.png",
+        "type": "drink"
+    },
+    {
+        "id": 9,
+        "name": "Orange Juice",
+        "price": 1.80,
+        "image": "images/Menu/9-OrangeJuice.png",
+        "type": "drink"
+    },
+    {
+        "id": 10,
+        "name": "Cappucino",
+        "price": 1.80,
+        "image": "images/Menu/10-Cappucino.png",
+        "type": "drink"
+    },
+    {
+        "id": 11,
+        "name": "Mocha",
+        "price": 1.50,
+        "image": "images/Menu/11-Mocha.png",
+        "type": "drink"
+    },
+    {
+        "id": 12,
+        "name": "Hot Chocolate",
+        "price": 1.50,
+        "image": "images/Menu/12-HotChoc.png",
+        "type": "drink"
+    },
+    {
+        "id": 13,
+        "name": "French Fries",
+        "price": 3.50,
+        "image": "images/Menu/13-French_Fries.png",
+        "type": "side"
+    },
+    {
+        "id": 14,
+        "name": "Onion Rings",
+        "price": 3.50,
+        "image": "images/Menu/14-OnionRings.png",
+        "type": "side"
+    },
+    {
+        "id": 15,
+        "name": "YB Nuggets",
+        "price": 4.80,
+        "image": "images/Menu/15-Nuggets.png",
+        "type": "side"
+    }
+]

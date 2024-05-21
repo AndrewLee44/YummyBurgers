@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="./Css/compiled.css" rel="stylesheet">
+    <link href="./Css/aboutus.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3f0b0357fd.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="./homepage.html"><img src="./Images/burgerlogo.png"
+            style="width: 100px; height: auto;"></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./menucatalogue.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ordermenu.html">Order</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./contactus.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact Us
+                </a>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item" href="contactus.html#contacttop">Customer Support</a></li>
+                  <li><a class="dropdown-item" href="contactus.html#contactbottom">Location</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <div class="nav-right">
+                <div class="profile">
+                    <ul class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./contactus.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user"><span id="profilename"></span></i>
+                        </a>
+                        <ul class="dropdown-menu" >
+                          <li><a class="dropdown-item" href="./login.html">Log Out</a></li>
+                        </ul>
+                    </ul>
+                </div>
+              </div>
+          </div>
+          
+        </div>
+      </nav>
+    <!-- Top Navbar -->
+
+    <!-- Carousel -->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Images/Carousel/tasty-deals.jpg" alt="tasty-deals" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/Carousel/tasty-egg.jpg" alt="tasty-egg" class="d-block" style="width:100%">
+
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- Carousel -->
+
+    <div class="container mt-5" id="promo">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>Doorstep Delivery</h1>
+                <p>Get all your Yummy Burger's favourites delivered right to your doorstep with our delivery service.
+                    Now available 24 hours, 7 days a week. Don't miss out on exclusive deals and offers!</p>
+                <button type="button" class="btn btn-warning" id="learn-more"><a href="./ordermenu.html" >Learn More</a></button>
+            </div>
+            <div class="col-sm-6">
+                <img src="./Images/Delivery.jpeg">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="./Images/fastfoods.jpg">
+            </div>
+            <div class="col-sm-6">
+                <h1>Restaurant Menu</h1>
+                <p>Hey there! Come check out our Yummy Burger's restaurant menu filled with our freshly made catalogue
+                    of burgers, beverages and various side dishes!</p>
+                <button type="button" class="btn btn-warning" id="learn-more"><a href="./menucatalogue.html" >Learn More</a></button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- About Us -->
+    <div class="container-fluid" id="about-us">
+        <div class="container">
+            <div class="content-section">
+
+                <div class="row">
+                    <div class="col-sm-6" id="content">
+                        <h1>About Us</h1>
+                        <p> Yummy Burgers is a fast-growing fast-food chain, serving customers since the 2000s. It
+                            started off as a
+                            single fast-food store in Ang Mo Kio, Singapore. From 2005 to 2015, they slowly expanded
+                            their
+                            business and now there is an outlet in almost every estate in Singapore. It is gradually
+                            becoming
+                            the biggest fast-food restaurant in Singapore. Products offered by Yummy Burgers are fast
+                            food items such
+                            as burgers and beverages.</p>
+                        <div class="button"></div>
+                        <div>
+                            <a href="https://www.facebook.com/search/top?q=nanyang%20polytechnic"><i
+                                    class='bx bxl-facebook-square'></i></a>
+                            <a href="https://www.instagram.com/nanyangpoly/"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="http://www.twitter.com/"><i class='bx bxl-twitter'></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="image-section">
+                        <img src="./Images/restaurantpic.jpg">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="table-responsive">
+                    <table class="table table-borderless">
+                      <thead>
+                        <tr>
+                          <th>YB Info</th>
+                          <th>Services</th>
+                          <th>Products</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        
+                        <tr>
+                          <td><a href="homepage.html">Homepage</a></td>
+                          <td><a href="ordermenu.html">Delivery</a></td>
+                          <td><a href="menucatalogue.html">Menu</a></td>
+                        </tr>
+
+                        <tr>
+                          <td><a href="homepage.html#about-us">About Us</a></td>
+                          <td><a href="contactus.html">Contact</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+
+            </div>
+            <hr>
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <p><span>Yummy Burgers</span></p>
+                    <p id="copyright">TM & (C) 2023 YUMMY BURGERS COMPANY LLC. USED UNDER
+                        LICENSE. ALL RIGHTS
+                        RESERVED.</p>
+                </div>
+
+                <div class="col-sm-6" id="icons">
+                    <span><a href="https://www.facebook.com/search/top?q=nanyang%20polytechnic"><i
+                        class='bx bxl-facebook-square'></i></a></span>
+                    <span><a href="https://www.instagram.com/nanyangpoly/"><i class='bx bxl-instagram-alt'></i></a></span>
+                    <span><a href="http://www.twitter.com/"><i class='bx bxl-twitter'></i></a></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+</body>
+<script>
+    var profilename = localStorage.getItem('username'); 
+    document.getElementById('profilename').innerHTML = profilename;
+</script>
+</html>
